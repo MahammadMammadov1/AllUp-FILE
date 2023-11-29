@@ -1,0 +1,21 @@
+﻿@using MVC_One_To_Many_Relation_with_EF_Core.Models;
+
+
+@model Slider
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <form method="post">
+            <h5 class="card-title">@Model.Title1</h5>
+            <h5 class="card-title">@Model.Title2</h5>
+            <h5 class="card-title">@Model.Title3</h5>
+            <h6 class="card-subtitle mb-2 text-muted">@Model.Description</h6>
+            <p class="card-text">@Model.RedirctUrl1</p>
+       
+            <p class="card-text">@Model.Image</p>
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a asp-action="index" asp-controller="slider" class="btn btn-primary">Back to home</a>
+        </form>
+
+    </div>
+</div>

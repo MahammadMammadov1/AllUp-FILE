@@ -1,0 +1,26 @@
+﻿@using MVC_One_To_Many_Relation_with_EF_Core.ViewModel;
+@model HomeViewModel
+
+
+<section class="slider-area slider-active">
+    @for (int i = 0; i < Model.Sliders.Count; i++)
+    
+    {
+        <div class="single-slider">
+            <div class="slider-image">
+                <img src="~/upload/sliders/@Model.Sliders[i].Image" alt="slider">
+            </div>
+            <div class="slider-content-wrapper">
+                <div class="container-fluid custom-container">
+                    <div class="slider-content">
+                        <h4 data-animation="fadeInDown" data-delay="0.5s" class="sub-title">@Model.Sliders[i].Title1</h4>
+                        <h1 data-animation="fadeInLeft" data-delay="0.5s" class="main-title "><span>@Model.Sliders[i].Title2 </span> @Model.Sliders[i].Title3</h1>
+                        <p data-animation="fadeInRightBig" data-delay="0.5s">@Model.Sliders[i].Description</p>
+                        <a data-animation="zoomIn" data-delay="0.5s" class="main-btn " href="@Model.Sliders[i].RedirctUrl1">Shop Now</a>
+                    </div>
+                </div> <!-- container -->
+            </div>
+        </div> <!-- single slider -->
+    }
+    
+</section>

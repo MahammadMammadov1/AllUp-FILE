@@ -1,0 +1,16 @@
+﻿@using MVC_One_To_Many_Relation_with_EF_Core.Models;
+
+
+@model Tag
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <form method="post">
+            <h5 class="card-title">@Model.Name</h5>
+
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a asp-action="index" asp-controller="tag" class="btn btn-primary">Back to home</a>
+        </form>
+
+    </div>
+</div>

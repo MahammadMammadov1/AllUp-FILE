@@ -1,0 +1,52 @@
+﻿@using MVC_One_To_Many_Relation_with_EF_Core.Models;
+
+@model List<Product>
+@{
+    int counter = 0;
+}
+
+<div>
+    <h1>Create product</h1>
+    <a asp-controller="product" asp-action="create" class="btn btn-primary ">Create</a>
+</div>
+
+<table class="table" style="overflow:scroll;max-width:1000px;">
+    <thead>
+        <tr>
+            <th scope="col">NO</th>
+            <th scope="col">Name</th>
+            <th scope="col">Desc</th>
+            <th scope="col">Code</th>
+            <th scope="col">CostPrice</th>
+            <th scope="col">SalePrice</th>
+            <th scope="col">DiscountPercent</th>
+            <th scope="col">Tax</th>
+            <th scope="col">IsAvailable</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            counter++;
+            <tr>
+                <th scope="row">@counter</th>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>@item.Code</td>
+                <td>@item.CostPrice</td>
+                <td>@item.SalePrice</td>
+                <td>@item.DiscountedPrice</td>
+                <td>@item.Tax</td>
+                <td>@item.IsAvailable</td>
+
+                <td>
+                    <a asp-controller="product" asp-action="update" asp-route-id="@item.Id" class="btn btn-primary">Update</a>
+                    <a asp-controller="product" asp-action="delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+</table>

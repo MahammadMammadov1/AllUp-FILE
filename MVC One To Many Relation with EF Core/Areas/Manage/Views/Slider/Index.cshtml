@@ -1,0 +1,45 @@
+﻿@using MVC_One_To_Many_Relation_with_EF_Core.Models;
+@model List<Slider>
+@{
+    int counter = 0;
+}
+
+<div>
+    <h1>Create Service</h1>
+    <a asp-controller="slider" asp-action="create" class="btn btn-primary ">Create</a>
+</div>
+
+<table class="table" style="overflow:scroll;max-width:1000px;">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title1</th>
+            <th scope="col">Title2</th>
+            <th scope="col">Title3</th>
+            <th scope="col">Desc</th>
+            <th scope="col">RedirctUrl</th>
+            <th scope="col">ImageUrl</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            counter++;
+            <tr>
+                <th scope="row">@counter</th>
+                <td>@item.Title1</td>
+                <td>@item.Title2</td>
+                <td>@item.Title3</td>
+                <td>@item.Description</td>
+                <td>@item.RedirctUrl1</td>
+                <td>@item.Image</td>
+                <td>
+                    <a asp-controller="slider" asp-action="update" asp-route-id="@item.Id" class="btn btn-primary">Update</a>
+                    <a asp-controller="slider" asp-action="delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+</table>

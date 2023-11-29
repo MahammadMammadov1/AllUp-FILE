@@ -1,0 +1,23 @@
+﻿@using MVC_One_To_Many_Relation_with_EF_Core.Models;
+
+
+
+@model Product
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <form method="post">
+            <h5 class="card-title">@Model.Name</h5>
+            <h6 class="card-subtitle mb-2 text-muted">@Model.Description</h6>
+            <p class="card-text">@Model.Code</p>
+            <p class="card-text">@Model.CostPrice</p>
+            <p class="card-text">@Model.DiscountedPrice</p>
+            <p class="card-text">@Model.Tax</p>
+            <p class="card-text">@Model.SalePrice</p>
+            <p class="card-text">@Model.IsAvailable</p>
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a asp-action="index" asp-controller="product" class="btn btn-primary">Back to home</a>
+        </form>
+
+    </div>
+</div>

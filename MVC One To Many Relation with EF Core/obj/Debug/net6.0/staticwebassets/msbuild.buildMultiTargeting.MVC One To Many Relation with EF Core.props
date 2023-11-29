@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MVC One To Many Relation with EF Core.props" />
+</Project>

@@ -1,0 +1,45 @@
+﻿@using MVC_One_To_Many_Relation_with_EF_Core.Models;
+@model Slider
+
+<div class="container-fluid">
+    <h1>UPDATE SLIDERS</h1>
+</div>
+
+<div class="container-fluid">
+
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="@Model.Title1">Title</label>
+            <input asp-for="@Model.Title1" type="text" class="form-control">
+            <span asp-validation-for="@Model.Title1"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Title2">Title</label>
+            <input asp-for="@Model.Title2" type="text" class="form-control">
+            <span asp-validation-for="@Model.Title2"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Title3">Title</label>
+            <input asp-for="@Model.Title3" type="text" class="form-control">
+            <span asp-validation-for="@Model.Title3"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Description">Description</label>
+            <input asp-for="@Model.Description" type=" text" class="form-control">
+            <span asp-validation-for="@Model.Description"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.RedirctUrl1">RedirctUrl</label>
+            <input asp-for="@Model.RedirctUrl1" type="text" class="form-control">
+            <span asp-validation-for="@Model.RedirctUrl1"></span>
+        </div>
+       
+        <div class="form-group">
+            <label asp-for="@Model.IFormFile">Image</label>
+            <input asp-for="@Model.IFormFile" class="form-control">
+            <span asp-validation-for="@Model.IFormFile"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">UPDATE</button>
+    </form>
+
+</div>
