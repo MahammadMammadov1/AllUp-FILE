@@ -24,6 +24,6 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Models
         [NotMapped]
         public IFormFile? ProductHower { get; set; }
         [NotMapped]
-        public List<int> ProductImageIds { get; set; }
+        public List<int>? ProductImageIds { get; set; }
     }
 }

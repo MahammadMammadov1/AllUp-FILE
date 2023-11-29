@@ -60,7 +60,7 @@
             <label asp-for="@Model.ProductHower">ProductHower</label>
             <input asp-for="@Model.ProductHower" class="form-control">
             <div style="width:150px">
-                <img style="max-width:100%" src="~/uploads/products/@Model.ProductImages.Where(x=>x.isPoster==false).FirstOrDefault()?.ImageUrl" />
+                <img style="max-width:100%" src="~/upload/products/@Model.ProductImages?.Where(x=>x.isPoster==false).FirstOrDefault()?.ImageUrl" />
             </div>
             <span asp-validation-for="@Model.ProductHower"></span>
         </div>
@@ -68,7 +68,7 @@
             <label asp-for="@Model.ProductPoster">ProductPoster</label>
             <input asp-for="@Model.ProductPoster" class="form-control">
             <div style="width:150px">
-                <img style="max-width:100%" src="~/uploads/products/@Model.ProductImages.Where(x=>x.isPoster==true).FirstOrDefault()?.ImageUrl" />
+                <img style="max-width:100%" src="~/upload/products/@Model.ProductImages?.Where(x=>x.isPoster==true).FirstOrDefault()?.ImageUrl" />
             </div>
             <span asp-validation-for="@Model.ProductPoster"></span>
         </div>
@@ -82,8 +82,8 @@
                     {
                         <div style="width: 150px; margin: 0 20px; margin-top: 20px; position: relative;">
                             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger remove-btn" style="font-size: 15px; top: 5px; right: -5px; cursor: pointer;">x</span>
-                            <img style="max-width: 100%;" src="~/uploads/products/@item.ImageUrl" />
-                            <input asp-for="ProductImageIds" value="@item.Id" type="hidden" style="width:50px;" />
+                            <img style="max-width: 100%;" src="~/upload/products/@item.ImageUrl" />
+                            <input name="ProductImageIds" value="@item.Id" type="hidden" style="width:50px;" />
                         </div>
 
                     }

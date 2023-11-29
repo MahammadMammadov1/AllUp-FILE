@@ -2976,6 +2976,534 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\scss\_variables.scss))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\01b25856-3b4c-4820-9a15-fdc825c3cb50tree-736885_1280.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/01b25856-3b4c-4820-9a15-fdc825c3cb50tree-736885_1280.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\01b25856-3b4c-4820-9a15-fdc825c3cb50tree-736885_1280.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\067fc120-1417-44ab-bc14-fcd6d318aa33n-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/067fc120-1417-44ab-bc14-fcd6d318aa33n-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\067fc120-1417-44ab-bc14-fcd6d318aa33n-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\0ff6f055-11e4-4e02-b3ca-5fa65e4fa6c5free-images.avif))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/0ff6f055-11e4-4e02-b3ca-5fa65e4fa6c5free-images.avif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\0ff6f055-11e4-4e02-b3ca-5fa65e4fa6c5free-images.avif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\112f60ff-d6be-4497-9a07-c652c86b8f20n-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/112f60ff-d6be-4497-9a07-c652c86b8f20n-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\112f60ff-d6be-4497-9a07-c652c86b8f20n-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\12cac4b8-0ddb-46a2-b867-4bdc82fa5feen-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/12cac4b8-0ddb-46a2-b867-4bdc82fa5feen-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\12cac4b8-0ddb-46a2-b867-4bdc82fa5feen-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\18008bd7-e90b-4527-a9fd-025bbe57f821n-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/18008bd7-e90b-4527-a9fd-025bbe57f821n-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\18008bd7-e90b-4527-a9fd-025bbe57f821n-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\1df0f9aa-567a-4be0-94d2-aea85bb93a80free-images.avif))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/1df0f9aa-567a-4be0-94d2-aea85bb93a80free-images.avif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\1df0f9aa-567a-4be0-94d2-aea85bb93a80free-images.avif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\1fc0dc7c-19e1-41fb-929e-8936c0efd60fn-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/1fc0dc7c-19e1-41fb-929e-8936c0efd60fn-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\1fc0dc7c-19e1-41fb-929e-8936c0efd60fn-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\3127c813-f09f-461a-b735-52bb7152d006n-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/3127c813-f09f-461a-b735-52bb7152d006n-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\3127c813-f09f-461a-b735-52bb7152d006n-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\3c77d809-2430-4042-9b37-5a23e4e0e11etree-736885_1280.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/3c77d809-2430-4042-9b37-5a23e4e0e11etree-736885_1280.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\3c77d809-2430-4042-9b37-5a23e4e0e11etree-736885_1280.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\43e756f7-ee38-4561-afc8-782d55acb05ctree-736885_1280.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/43e756f7-ee38-4561-afc8-782d55acb05ctree-736885_1280.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\43e756f7-ee38-4561-afc8-782d55acb05ctree-736885_1280.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\4704333f-6517-4f51-a833-5e81e75f1832free-images.avif))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/4704333f-6517-4f51-a833-5e81e75f1832free-images.avif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\4704333f-6517-4f51-a833-5e81e75f1832free-images.avif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\48703d49-4c03-4158-aca9-9e2c74871cbftree-736885_1280.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/48703d49-4c03-4158-aca9-9e2c74871cbftree-736885_1280.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\48703d49-4c03-4158-aca9-9e2c74871cbftree-736885_1280.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\546899b7-b3bd-43d8-a326-638e3da4db47free-images.avif))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/546899b7-b3bd-43d8-a326-638e3da4db47free-images.avif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\546899b7-b3bd-43d8-a326-638e3da4db47free-images.avif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\5d77dc0d-e49a-46bb-8af1-02e62754d178free-images.avif))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/5d77dc0d-e49a-46bb-8af1-02e62754d178free-images.avif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\5d77dc0d-e49a-46bb-8af1-02e62754d178free-images.avif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\7cf2b00e-ad3b-4a4a-a0db-1d209b912c27n-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/7cf2b00e-ad3b-4a4a-a0db-1d209b912c27n-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\7cf2b00e-ad3b-4a4a-a0db-1d209b912c27n-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\7ea2f444-df4f-4414-bfd6-f3437fe67792free-images.avif))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/7ea2f444-df4f-4414-bfd6-f3437fe67792free-images.avif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\7ea2f444-df4f-4414-bfd6-f3437fe67792free-images.avif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\818e273b-c0da-47d4-bf31-cd3f1c125a74tree-736885_1280.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/818e273b-c0da-47d4-bf31-cd3f1c125a74tree-736885_1280.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\818e273b-c0da-47d4-bf31-cd3f1c125a74tree-736885_1280.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\824c3d6b-cef1-4fd9-8449-8857173ea29cn-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/824c3d6b-cef1-4fd9-8449-8857173ea29cn-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\824c3d6b-cef1-4fd9-8449-8857173ea29cn-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\9574316d-6089-4b8b-a5e3-d1856761f272n-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/9574316d-6089-4b8b-a5e3-d1856761f272n-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\9574316d-6089-4b8b-a5e3-d1856761f272n-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\95ab38eb-26ee-4f49-b6a7-8a430c4ef18ctree-736885_1280.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/95ab38eb-26ee-4f49-b6a7-8a430c4ef18ctree-736885_1280.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\95ab38eb-26ee-4f49-b6a7-8a430c4ef18ctree-736885_1280.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\964ae8fd-8a52-4e0b-848c-19d679d5017ffree-images.avif))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/964ae8fd-8a52-4e0b-848c-19d679d5017ffree-images.avif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\964ae8fd-8a52-4e0b-848c-19d679d5017ffree-images.avif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\a49f7bf7-f715-4485-a8de-9ae855593555n-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/a49f7bf7-f715-4485-a8de-9ae855593555n-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\a49f7bf7-f715-4485-a8de-9ae855593555n-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\aa39f1e4-781a-4532-bff5-79a7432e3623n-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/aa39f1e4-781a-4532-bff5-79a7432e3623n-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\aa39f1e4-781a-4532-bff5-79a7432e3623n-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\af5e9abf-1c22-495b-9862-43c200658731n-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/af5e9abf-1c22-495b-9862-43c200658731n-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\af5e9abf-1c22-495b-9862-43c200658731n-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\b33e3112-b1f3-4a72-8a68-604a461dc064free-images.avif))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/b33e3112-b1f3-4a72-8a68-604a461dc064free-images.avif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\b33e3112-b1f3-4a72-8a68-604a461dc064free-images.avif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\b4a13a67-dbb5-4fc1-8c99-88fa5bd35615n-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/b4a13a67-dbb5-4fc1-8c99-88fa5bd35615n-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\b4a13a67-dbb5-4fc1-8c99-88fa5bd35615n-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\bbeff20a-a4f3-4e38-9886-1d6cc7925a43tree-736885_1280.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/bbeff20a-a4f3-4e38-9886-1d6cc7925a43tree-736885_1280.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\bbeff20a-a4f3-4e38-9886-1d6cc7925a43tree-736885_1280.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\bea611e2-14ba-46eb-9ad1-c57cf5a4d472tree-736885_1280.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/bea611e2-14ba-46eb-9ad1-c57cf5a4d472tree-736885_1280.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\bea611e2-14ba-46eb-9ad1-c57cf5a4d472tree-736885_1280.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\c2fc7fa0-77ab-4a95-abf8-85d37a7ccce6free-images.avif))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/c2fc7fa0-77ab-4a95-abf8-85d37a7ccce6free-images.avif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\c2fc7fa0-77ab-4a95-abf8-85d37a7ccce6free-images.avif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\c3fc9850-3e36-426d-b6b1-d1bd58efe6een-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/c3fc9850-3e36-426d-b6b1-d1bd58efe6een-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\c3fc9850-3e36-426d-b6b1-d1bd58efe6een-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\cc160e37-dab0-401b-baa9-a9b501c8a78ftree-736885_1280.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/cc160e37-dab0-401b-baa9-a9b501c8a78ftree-736885_1280.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\cc160e37-dab0-401b-baa9-a9b501c8a78ftree-736885_1280.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\e3e576bc-f57b-41f4-8767-2d9f96f69430n-heroes-download-with-transparent-background-free-thumbnail.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC One To Many Relation with EF Core</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC One To Many Relation with EF Core</BasePath>
+      <RelativePath>upload/products/e3e576bc-f57b-41f4-8767-2d9f96f69430n-heroes-download-with-transparent-background-free-thumbnail.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\products\e3e576bc-f57b-41f4-8767-2d9f96f69430n-heroes-download-with-transparent-background-free-thumbnail.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\upload\sliders\68c02f9e-7968-49e6-9985-1dd697f438f54e6cec6672739cd31912005eeaab26e0.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>MVC One To Many Relation with EF Core</SourceId>

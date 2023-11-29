@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mehemmed\\Desktop\\MVC-Slider\\MVC One To Many Relation with EF Core\\MVC One To Many Relation with EF Core.csproj": {}
+    "C:\\Users\\II Novbe\\Desktop\\AllUp-FILE\\MVC One To Many Relation with EF Core\\MVC One To Many Relation with EF Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mehemmed\\Desktop\\MVC-Slider\\MVC One To Many Relation with EF Core\\MVC One To Many Relation with EF Core.csproj": {
+    "C:\\Users\\II Novbe\\Desktop\\AllUp-FILE\\MVC One To Many Relation with EF Core\\MVC One To Many Relation with EF Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mehemmed\\Desktop\\MVC-Slider\\MVC One To Many Relation with EF Core\\MVC One To Many Relation with EF Core.csproj",
+        "projectUniqueName": "C:\\Users\\II Novbe\\Desktop\\AllUp-FILE\\MVC One To Many Relation with EF Core\\MVC One To Many Relation with EF Core.csproj",
         "projectName": "MVC One To Many Relation with EF Core",
-        "projectPath": "C:\\Users\\Mehemmed\\Desktop\\MVC-Slider\\MVC One To Many Relation with EF Core\\MVC One To Many Relation with EF Core.csproj",
-        "packagesPath": "C:\\Users\\Mehemmed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mehemmed\\Desktop\\MVC-Slider\\MVC One To Many Relation with EF Core\\obj\\",
+        "projectPath": "C:\\Users\\II Novbe\\Desktop\\AllUp-FILE\\MVC One To Many Relation with EF Core\\MVC One To Many Relation with EF Core.csproj",
+        "packagesPath": "C:\\Users\\II Novbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\II Novbe\\Desktop\\AllUp-FILE\\MVC One To Many Relation with EF Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mehemmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\II Novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -83,7 +83,7 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Areas.Manage.Controllers
 
                 fileName = Guid.NewGuid().ToString() + fileName;
 
-                string path = "C:\\Users\\Mehemmed\\Desktop\\MVC-Slider\\MVC One To Many Relation with EF Core\\wwwroot\\upload\\" + fileName;
+                string path = "C:\\Users\\II Novbe\\Desktop\\AllUp-FILE\\MVC One To Many Relation with EF Core\\wwwroot\\upload\\products\\" + fileName;
                 using (FileStream fileStream = new FileStream(path, FileMode.Create))
                 {
                     product.ProductPoster.CopyTo(fileStream);
@@ -126,7 +126,7 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Areas.Manage.Controllers
 
                 fileName = Guid.NewGuid().ToString() + fileName;
 
-                string path = "C:\\Users\\Mehemmed\\Desktop\\MVC-Slider\\MVC One To Many Relation with EF Core\\wwwroot\\upload\\" + fileName;
+                string path = "C:\\Users\\II Novbe\\Desktop\\AllUp-FILE\\MVC One To Many Relation with EF Core\\wwwroot\\upload\\products\\" + fileName;
                 using (FileStream fileStream = new FileStream(path, FileMode.Create))
                 {
                     product.ProductHower.CopyTo(fileStream);
@@ -140,10 +140,7 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Areas.Manage.Controllers
                 };
                 _appDb.ProductImages.Add(productImage);
             }
-            else
-            {
-                ModelState.AddModelError("ProductHower", "image is required");
-            }
+            
 
 
             if (product.ImageFiles != null)
@@ -168,7 +165,7 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Areas.Manage.Controllers
 
                     fileName = Guid.NewGuid().ToString() + fileName;
 
-                    string path = "C:\\Users\\Mehemmed\\Desktop\\MVC-Slider\\MVC One To Many Relation with EF Core\\wwwroot\\upload\\" + fileName;
+                    string path = "C:\\Users\\II Novbe\\Desktop\\AllUp-FILE\\MVC One To Many Relation with EF Core\\wwwroot\\upload\\products\\" + fileName;
                     using (FileStream fileStream = new FileStream(path, FileMode.Create))
                     {
                         img.CopyTo(fileStream);
@@ -195,7 +192,7 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Areas.Manage.Controllers
             ViewBag.Tags = _appDb.Tags.ToList();
 
             if (!ModelState.IsValid) return View();
-            var existProduct = _appDb.Products.Include(x=>x.ProductTag).FirstOrDefault(x => x.Id == id);
+            var existProduct = _appDb.Products.Include(x=>x.ProductTag).Include(x => x.ProductImages).FirstOrDefault(x => x.Id == id);
             return View(existProduct);
         }
 
@@ -211,20 +208,33 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Areas.Manage.Controllers
             if (!ModelState.IsValid) return View(product);
 
 
-            existProduct.ProductTag.RemoveAll(bt =>!product.TagIds.Contains(bt.TagId)); 
-
-            foreach (var tagId in product.TagIds.Where(tagId => !existProduct.ProductTag.Any(pt => pt.TagId == tagId)))
+            if (product.TagIds != null)
             {
-                ProductTag productTag = new ProductTag
+                existProduct.ProductTag.RemoveAll(bt => !product.TagIds.Contains(bt.TagId));
+
+
+
+
+                foreach (var tagId in product.TagIds.Where(tagId => !existProduct.ProductTag.Any(pt => pt.TagId == tagId)))
                 {
-                    TagId = tagId
-                };
-                existProduct.ProductTag.Add(productTag);
+                    ProductTag productTag = new ProductTag
+                    {
+                        TagId = tagId
+                    };
+                    existProduct.ProductTag.Add(productTag);
+                }
+
+
+
             }
+           
+
+            
 
 
             if (product.ProductPoster != null)
             {
+                //existProduct.ProductImages.RemoveAll(bi => !product.ProductImageIds.Contains(bi.Id) && bi.isPoster == true);
                 string fileName = product.ProductPoster.FileName;
                 if (product.ProductPoster.ContentType != "image/jpeg" && product.ProductPoster.ContentType != "image/png")
                 {
@@ -243,7 +253,7 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Areas.Manage.Controllers
 
                 fileName = Guid.NewGuid().ToString() + fileName;
 
-                string path = "C:\\Users\\Mehemmed\\Desktop\\MVC-Slider\\MVC One To Many Relation with EF Core\\wwwroot\\upload\\" + fileName;
+                string path = "C:\\Users\\II Novbe\\Desktop\\AllUp-FILE\\MVC One To Many Relation with EF Core\\wwwroot\\upload\\products\\" + fileName;
                 using (FileStream fileStream = new FileStream(path, FileMode.Create))
                 {
                     product.ProductPoster.CopyTo(fileStream);
@@ -259,15 +269,13 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Areas.Manage.Controllers
                 existProduct.ProductImages.Add(productImage);
 
             }
-            else
-            {
-                ModelState.AddModelError("ProductPoster", "image is required");
-            }
+            
 
 
 
             if (product.ProductHower != null)
             {
+                //existProduct.ProductImages.RemoveAll(bi => !product.ProductImageIds.Contains(bi.Id) && bi.isPoster == false);
                 string fileName = product.ProductHower.FileName;
                 if (product.ProductHower.ContentType != "image/jpeg" && product.ProductHower.ContentType != "image/png")
                 {
@@ -286,7 +294,7 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Areas.Manage.Controllers
 
                 fileName = Guid.NewGuid().ToString() + fileName;
 
-                string path = "C:\\Users\\Mehemmed\\Desktop\\MVC-Slider\\MVC One To Many Relation with EF Core\\wwwroot\\upload\\" + fileName;
+                string path = "C:\\Users\\II Novbe\\Desktop\\AllUp-FILE\\MVC One To Many Relation with EF Core\\wwwroot\\upload\\products\\" + fileName;
                 using (FileStream fileStream = new FileStream(path, FileMode.Create))
                 {
                     product.ProductHower.CopyTo(fileStream);
@@ -300,15 +308,17 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Areas.Manage.Controllers
                 };
                 existProduct.ProductImages.Add(productImage);
             }
-            else
-            {
-                ModelState.AddModelError("ProductHower", "image is required");
-            }
+            
 
-            existProduct.ProductImages.RemoveAll(bi => !product.ProductImageIds.Contains(bi.Id) && bi.isPoster == null);
+            //existProduct.ProductImages.RemoveAll(bi => !product.ProductImageIds.Contains(bi.Id) && bi.isPoster == null);
 
             if (product.ImageFiles != null)
             {
+                if (existProduct.ProductImages != null)
+                {
+                    existProduct.ProductImages.RemoveAll(bi => !product.ProductImageIds.Contains(bi.Id) && bi.isPoster == null);
+                }
+               
                 foreach (var img in product.ImageFiles)
                 {
                     string fileName = img.FileName;
@@ -329,7 +339,7 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Areas.Manage.Controllers
 
                     fileName = Guid.NewGuid().ToString() + fileName;
 
-                    string path = "C:\\Users\\Mehemmed\\Desktop\\MVC-Slider\\MVC One To Many Relation with EF Core\\wwwroot\\upload\\" + fileName;
+                    string path = "C:\\Users\\II Novbe\\Desktop\\AllUp-FILE\\MVC One To Many Relation with EF Core\\wwwroot\\upload\\products\\" + fileName;
                     using (FileStream fileStream = new FileStream(path, FileMode.Create))
                     {
                         img.CopyTo(fileStream);

@@ -170,13 +170,13 @@ namespace MVC_One_To_Many_Relation_with_EF_Core.Migrations
 
             modelBuilder.Entity("MVC_One_To_Many_Relation_with_EF_Core.Models.ProductImage", b =>
                 {
-                    b.HasOne("MVC_One_To_Many_Relation_with_EF_Core.Models.Product", "Book")
+                    b.HasOne("MVC_One_To_Many_Relation_with_EF_Core.Models.Product", "Product")
                         .WithMany("ProductImages")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Book");
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("MVC_One_To_Many_Relation_with_EF_Core.Models.ProductTag", b =>
